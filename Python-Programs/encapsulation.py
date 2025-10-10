@@ -1,9 +1,11 @@
 class Book:
-    def __init__(self,page):
-        self._pages = page
+    def __init__(self,title,page):
+        self._heading = title
+        self.__pages = page
 
-book1 = Book(69)
-print(book1._pages)
+b1 = Book("Travelling",69)
+print(b1._heading)
+#print(book1.__pages)
 
 
 
