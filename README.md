@@ -49,9 +49,15 @@ Feel free to explore and follow along with my journey toward becoming a **Full S
 ---
 
 ## 🌟 **Connect With Me**
+
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black?logo=github)](https://github.com/Lokesh-Reddy-Kambham/)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/lokesh-reddy-kambham/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-green?logo=google-chrome)](https://YOUR-PORTFOLIO-LINK)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?logo=linkedin)](https://www.linkedin.com/in/lokesh-reddy-kambham/)
+[![HackerRank](https://img.shields.io/badge/HackerRank-Profile-green?logo=hackerrank)](https://www.hackerrank.com/profile/Lokesh_Reddy_)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Profile-orange?logo=leetcode)](https://leetcode.com/u/Lokesh-Reddy-Kambham/)
+[![SoloLearn](https://img.shields.io/badge/SoloLearn-Profile-Blue?logo=sololearn)](https://www.sololearn.com/en/profile/30363693)
+
+
+
 
 ---
 
