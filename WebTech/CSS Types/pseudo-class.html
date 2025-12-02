@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Class Selectors</title>
+    <style>
+        /*Dynamic pseudo class */
+        a:link{
+            color:pink;
+        }
+        a:visited{
+            color:green;
+        }
+        a:active{
+            color:orangered;
+        }
+        a:hover{
+            cursor:crosshair;
+        }
+        /*Structural Pseudo class*/
+        li:first-child{
+            list-style-type: none;
+        }
+        li:last-child{
+            list-style-type: square;
+        }
+        li:nth-child(odd){
+            list-style-type: circle;
+        }
+        li:first-of-type{
+            list-style-type: symbols();
+        }
+        li:last-of-type{
+            list-style-type: disc;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <a href="https://www.whatsapp.com">What's app</a>
+        <a href="https://www.facebook.com">Facebook</a>
+        <a href="https://www.bgmi.com">BGMI</a>
+        <a href="https://www.instagram.com">Instagram</a>
+        <a href="https://www.threads.com">Threads</a>
+        <a href="https://www.linkedin.com">LinkedIn</a>
+    </div>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React Js</li>
+        <li>Express Js</li>
+    </ul>
+</body>
+</html>
