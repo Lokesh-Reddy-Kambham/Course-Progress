@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element Selector</title>
+    <style>
+        h1::after{
+            content: " Uppi";
+        }
+        h1::before{
+            content: "Lokesh ";
+        }
+        h1::first-letter{
+            background-color: aquamarine;
+        }
+        h1::first-line{
+            color:green;
+        }
+        li::marker{
+            content: "**";
+        }
+        h1::selection{
+            color: brown;
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Alias</h1>
+    <h1>Alias</h1>
+    <h1>Alias</h1>
+    <h1>Alias</h1>
+    <h1>Alias</h1>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React Js</li>
+    </ul>
+</body>
+</html>

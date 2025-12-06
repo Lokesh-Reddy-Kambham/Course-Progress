@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo class selectors</title>
+    <style>
+        a:link{
+            color:red;
+            background-color: yellow;
+        }
+        a:visited{
+            color:aqua;
+        }
+        a:hover{
+            cursor: pointer;
+        }
+        a:active{
+            color:deeppink;
+        }
+        li:first-child{
+            background-color: aqua;
+        }
+        li:nth-child(even){
+            background-color: yellow;
+        }
+        li:last-child{
+            background-color: blueviolet;
+        }
+        li:first-of-type{
+            background-color:orangered;
+        }
+        li:last-of-type{
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            <a href="https://www.meta.com" target="_blank">Link</a><br/>
+            <a href="https://www.instagram.com" target="_blank">Visited</a><br/>
+            <a href="https://www.facebook.com" target="_blank">Hover</a><br/>
+            <a href="https://www.threads.com" target="_blank">Active</a>
+        </p>
+    </div>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React Js</li>
+        <li>Node js</li>
+        <li>Express Js</li>
+    </ul>
+</body>
+</html>
