@@ -1,0 +1,45 @@
+#parent{
+        height:580px;
+        background-color: #0F0713;
+        border: 2px solid purple;
+        }
+.child{
+        height: 275px;  
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        }
+.row{
+    height:225px;
+    width:175px;
+}
+#sub-child1{
+    background-image: linear-gradient(#2EE9C8,#0B64FF);
+}
+#sub-child2{
+    background-image: linear-gradient(#BF2B86,#3A0066);
+}#sub-child3{
+    background-image: linear-gradient(#FF8A66,#FF2F6F);
+}#sub-child4{
+    background-image: linear-gradient(#7E0E8A,#FF2B6F);
+}#sub-child5{
+    background-image: linear-gradient(#2EFFFF,#6E32FF);
+}
+#sub-child6{
+    background-image: linear-gradient(#FFD1D1,#FF69B4);
+}
+#sub-child11{
+    background-image: linear-gradient(#FF6AA0,#6A00D8);
+}
+#sub-child12{
+    background-image: linear-gradient(#FFB24B,#FF3B8B);
+}#sub-child13{
+    background-image: linear-gradient(#22E3FF,#0066FF);
+}#sub-child14{
+    background-image: linear-gradient(#2E0059,#9B12FF);
+}#sub-child15{
+    background-image: linear-gradient( #B856FF,#6A00D9);
+}
+#sub-child16{
+    background-image: linear-gradient( #FFEE33,#FF7F2A);
+}
