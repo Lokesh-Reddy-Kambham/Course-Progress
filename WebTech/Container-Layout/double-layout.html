@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Double Layout</title>
+    <style>
+        #parent{
+            height: 600px;
+            border:2px solid orangered;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: deeppink;
+        }
+        #child1,#child2,#child3{
+            height:200px;
+            width:200px;
+            border:2px dashed skyblue;
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            background-color: blueviolet;
+        }
+        .sub-child{
+            height: 50px;
+            width: 50px;
+            border: 2px dotted gold;
+            background-color: black;
+            border-radius: 75%;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child1">
+            <div class="sub-child"></div>
+            <div class="sub-child"></div>
+        </div>
+        <div id="child2">
+            <div class="sub-child"></div>
+            <div class="sub-child"></div>
+        </div>
+        <div id="child3">
+            <div class="sub-child"></div>
+            <div class="sub-child"></div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Container Layout</title>
+    <style>
+        #parent{
+            background-color:whitesmoke;
+            height: 600px;
+            border: 2px solid purple;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+        }
+        #child1,#child2,#child3{
+            height:300px;
+            width:300px;
+            border:2px solid black;
+            border-radius: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            box-shadow: 2px 2px 2px blueviolet;
+        }
+        img{
+            height:300px;
+            width:300px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9ttf2E4idZ5liI_YkhCh2xfbMnZz1rMEkE5wJdts9oYQFzvYIMMPypiX-tfdBTixVaZbmXgrSfirQ_ukU1HrLh_bI_Q5pbFQXhNHe7mC6SA&s=10" alt="">
+        </div>
+        <div id="child2">
+            <img src="https://pbs.twimg.com/profile_images/1409569973039685634/mttibFeu_400x400.jpg" alt="">
+        </div>
+        <div id="child3">
+            <img src="https://avatars.githubusercontent.com/u/153726430?v=4" alt="">
+        </div>
+    </div>
+</body>
+</html>
