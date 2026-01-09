@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="usr">User Name:</label>
+        <input type="text" name="" id="usr" placeholder="Enter UserName">
+        <label for="pwd">Password:</label>
+        <input type="password" name="" id="pwd" placeholder="Enter Password">
+        <label for="email">Email:</label>
+        <input type="email" name="" id="email" placeholder="Enter Email">
+        <button onclick="signup()">SignUp</button>
+    </form>
+    <script>
+        function signup(){
+            let users = JSON.parse(localStorage.getItem("users")) || []
+
+             let username = document.getElementById("usr").value
+             let password = document.getElementById("pwd").value
+             let email = document.getElementById("email").value
+
+        let exists = users.some((x)=>{
+            return x.username === username
+        })
+        if (exists){
+            alert("username already exists")
+            return 
+        }
+        let a = {
+            username:username,
+            email:email,
+            password:password
+        }
+        users.push(a)
+        localStorage.setItem("users",JSON.stringify(users))
+        alert("user registered");
+    }
+    </script>
+</body>
+</html>
