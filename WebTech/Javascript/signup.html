@@ -13,7 +13,7 @@
         <input type="password" name="" id="pwd" placeholder="Enter Password">
         <label for="email">Email:</label>
         <input type="email" name="" id="email" placeholder="Enter Email">
-        <button onclick="signup()" type="submit">SignUp</button>
+        <button onclick="signup()">SignUp</button>
     </form>
     <script>
         function signup(){
@@ -38,6 +38,8 @@
         users.push(a)
         localStorage.setItem("users",JSON.stringify(users))
         alert("user registered");
+        
+        window.location.href="login-page.html"
     }
     </script>
 </body>

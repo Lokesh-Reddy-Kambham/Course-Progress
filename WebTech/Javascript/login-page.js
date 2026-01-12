@@ -14,7 +14,4 @@ function login(){
             username:username,
             password:password
         }
-        users.push(a)
-        localStorage.setItem("users",JSON.stringify(users))
-        alert("user registered");
     }
