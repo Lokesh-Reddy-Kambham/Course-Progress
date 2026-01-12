@@ -36,4 +36,3 @@ console.log(employee["skills"]["languages"]);
 console.log(Object.keys(user_data));
 console.log(Object.values(employee));
 console.log(Object.entries(employee));
-
