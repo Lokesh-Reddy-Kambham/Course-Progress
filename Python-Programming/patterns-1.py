@@ -148,16 +148,3 @@ for i in range(1,y+1):
         print(value2,end=" ")
         value2 += 1
     print()
-z = int(input("Enter Number:"))
-for i in range(1,z+1):
-    for space in range(1,z-i+1):
-        print(" ",end=" ")
-    x = 1
-    for j in range(1,i+1):
-        print(x,end=" ")
-        x = x +1
-    x = i -1
-    for k in range(1,i):
-        print(x,end=" ")
-        x = x -1
-    print()
