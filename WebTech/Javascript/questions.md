@@ -1,0 +1,23 @@
+- Explain avascript engines and mention some engine names?
+- What is typecasting?
+- What is the Difference between == and === operator ?
+- What is the Difference between null and undefined?
+- What is function and list its types ? 
+- Explain Arrow Function and its Rules?
+- Explain Higher order function and call-back function?
+- What is Array and Explain its methods ? 
+- Explain map() , filter() , reduce() ?
+- What is DOM ? Difference between DOM and BOM ?
+- What is DOM tree ?
+- Explain Event Handling in JavaScript ?
+- What is Difference between prevents default and stop propagation ?
+- Explain Scopes in JavaScript ?
+- Explain Event Bubbling ?
+- Explain Closure in JavaScript ?
+- Explain call() , apply and bind() ?
+- Explain Prototypes and Inheritance ?
+- Explain ES6 classes ?
+- Explain Referencing and De-referencing ?
+- Explain Shallow Copy and Deep Copy ?
+- Explain async and await ?
+- Explain rest and Spread operator ?
